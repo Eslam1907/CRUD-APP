@@ -213,13 +213,13 @@ table tr button:hover{
     
   }
 /* media end */
-@media (max-width:468px){
+@media (max-width:440px){
     .container{
         margin: 0;
         width: 100%;
     }
     .cruds{
-        padding: 1px !important;
+        padding: 10px !important;
         margin: 0;
         border-radius: 0;
         box-shadow: none;
