@@ -73,14 +73,15 @@
 
   .head-cruds{
     text-align: center;
-    text-transform: capitalize;
     margin: 10px 0;
 }
 .head-cruds h1{
     font-size: 40px;
+    text-transform: uppercase;
 }
 .head-cruds p{
     font-size: 18px;
+    letter-spacing: 3px;
 }
 /* end head-cruds style */
 
@@ -212,3 +213,37 @@ table tr button:hover{
     
   }
 /* media end */
+@media (max-width:468px){
+    .container{
+        margin: 0;
+        width: 100%;
+    }
+    .cruds{
+        padding: 25px !important;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        
+    }
+    .table{
+        width: 100%;
+        overflow: auto;
+    }
+    .table th{
+        font-size: 9px;
+    }
+    table tr button {
+        
+        font-size: 10px;
+       
+    }
+    .Inputs-cruds input {
+        padding: 10px;
+        margin: 12px 0px 9px 5px;
+        font-size: 11px;
+    }
+    .Inputs-cruds button {
+        font-size: 12px;
+     
+    }
+  }
