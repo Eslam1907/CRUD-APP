@@ -238,9 +238,16 @@ table tr button:hover{
        
     }
     .Inputs-cruds input {
-        padding: 10px;
-        margin: 12px 0px 9px 5px;
-        font-size: 11px;
+        padding: 10px 5px;
+        margin: 9px auto;
+        font-size: 10px;
+        width: 89%;
+        text-align: center;
+    }
+    .Inputs-cruds input .small {
+     
+        width: 40%;
+        
     }
     .Inputs-cruds button {
         font-size: 8px;
