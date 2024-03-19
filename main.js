@@ -138,12 +138,12 @@ function AddTableItem (item,i){
     <tr>
         <td>${i}</td>
         <td>${item.title}</td>
-        <td>${item.price}</td>
-        <td>${item.taxes}</td>
-        <td>${item.ads}</td>
-        <td>${item.discount}</td>
+        <td>${item.price}$</td>
+        <td>${item.taxes}$</td>
+        <td>${item.ads}$</td>
+        <td>${item.discount}$</td>
         <td>${item.category}</td>
-        <td>${item.total}</td>
+        <td>${item.total}$</td>
         <td>
             <button onClick="update(${i})">update</button>
         </td>
