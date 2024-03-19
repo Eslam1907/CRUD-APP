@@ -136,7 +136,7 @@ function AddTableItem (item,i){
 
     table=`
     <tr>
-        <td>${i}</td>
+        <td>${i+1}</td>
         <td>${item.title}</td>
         <td>${item.price}$</td>
         <td>${item.taxes}$</td>
